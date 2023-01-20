@@ -1,0 +1,81 @@
+@import url();
+body{
+    background-color: black;
+}
+.conteiner{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    list-style-type: none;
+}
+.nav-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    /* justify-content: flex-end; */
+}
+header {
+    height: 90px;
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(../img/hvvrAZNvhcY.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header.wraper {
+    height: 90px;
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(../img/hvvrAZNvhcY.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-start {
+    height: 820px;
+    background-image: url(../img/hvvrAZNvhcY.jpg);
+    background-position: -90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.Alexa-start { 
+    height: 330px;
+    width: 500px;
+    color: white;
+    align-items: center;
+}
+.name {
+    font-size: 60px;
+}
+.hire-me-button {
+    height: 60px;
+    width: 180px;
+    background-color: wheat;
+}
+.skills {
+    color: white;
+}
+.skill-name {
+    color: wheat;
+        text-align: center;
+}
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.one-skill {
+    align-items: center;
+    justify-self: center;
+}
+.video-section {
+    height: 705px;
+    background-image: url(../img/video-playerVideo-background.jpg);
+}
